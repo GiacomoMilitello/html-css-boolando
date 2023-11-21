@@ -66,6 +66,9 @@ main div figure img{
     padding: 4px 6px;
     background-color: white;
 }
+.heart:hover{
+    color: #f40008;
+}
 .info{
     position: absolute;
     bottom: 90px;
