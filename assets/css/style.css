@@ -59,6 +59,17 @@ main div figure img{
     position: relative;
     margin-top: 40px;
 }
+.item figure{
+    position: relative;
+}
+.item figure :nth-child(2){
+    position: absolute;
+    left: 0;
+}
+.item figure :nth-child(2):hover{
+    opacity: 0;
+}
+    
 .heart{
     position: absolute;
     top: 2px;
